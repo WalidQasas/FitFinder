@@ -1,0 +1,586 @@
+2025-06-13 11:02:46,510 - INFO - SpaCy model loaded successfully
+2025-06-13 11:02:46,510 - INFO - Resume Ranker initialized successfully
+2025-06-13 11:02:46,511 - INFO - Processing resumes from ..\data\data\data
+2025-06-13 11:02:46,511 - INFO - Processing sector: ACCOUNTANT
+2025-06-13 11:02:49,103 - INFO - Processed 118 resumes from ACCOUNTANT
+2025-06-13 11:02:49,103 - INFO - Processing sector: ADVOCATE
+2025-06-13 11:02:51,628 - INFO - Processed 118 resumes from ADVOCATE
+2025-06-13 11:02:51,628 - INFO - Processing sector: AGRICULTURE
+2025-06-13 11:02:52,986 - INFO - Processed 63 resumes from AGRICULTURE
+2025-06-13 11:02:52,987 - INFO - Processing sector: APPAREL
+2025-06-13 11:02:55,169 - INFO - Processed 97 resumes from APPAREL
+2025-06-13 11:02:55,170 - INFO - Processing sector: ARTS
+2025-06-13 11:02:57,554 - INFO - Processed 104 resumes from ARTS
+2025-06-13 11:02:57,555 - INFO - Processing sector: AUTOMOBILE
+2025-06-13 11:02:58,401 - INFO - Processed 36 resumes from AUTOMOBILE
+2025-06-13 11:02:58,402 - INFO - Processing sector: AVIATION
+2025-06-13 11:03:00,941 - INFO - Processed 117 resumes from AVIATION
+2025-06-13 11:03:00,942 - INFO - Processing sector: BANKING
+2025-06-13 11:03:03,346 - INFO - Processed 115 resumes from BANKING
+2025-06-13 11:03:03,346 - INFO - Processing sector: BPO
+2025-06-13 11:03:03,856 - INFO - Processed 22 resumes from BPO
+2025-06-13 11:03:03,857 - INFO - Processing sector: BUSINESS-DEVELOPMENT
+2025-06-13 11:03:04,170 - WARNING - Insufficient text extracted from 12632728.pdf
+2025-06-13 11:03:06,453 - INFO - Processed 119 resumes from BUSINESS-DEVELOPMENT
+2025-06-13 11:03:06,454 - INFO - Processing sector: CHEF
+2025-06-13 11:03:08,901 - INFO - Processed 118 resumes from CHEF
+2025-06-13 11:03:08,902 - INFO - Processing sector: CONSTRUCTION
+2025-06-13 11:03:11,401 - INFO - Processed 112 resumes from CONSTRUCTION
+2025-06-13 11:03:11,401 - INFO - Processing sector: CONSULTANT
+2025-06-13 11:03:13,954 - INFO - Processed 115 resumes from CONSULTANT
+2025-06-13 11:03:13,955 - INFO - Processing sector: DESIGNER
+2025-06-13 11:03:16,230 - INFO - Processed 107 resumes from DESIGNER
+2025-06-13 11:03:16,231 - INFO - Processing sector: DIGITAL-MEDIA
+2025-06-13 11:03:18,310 - INFO - Processed 96 resumes from DIGITAL-MEDIA
+2025-06-13 11:03:18,311 - INFO - Processing sector: ENGINEERING
+2025-06-13 11:03:20,957 - INFO - Processed 118 resumes from ENGINEERING
+2025-06-13 11:03:20,958 - INFO - Processing sector: FINANCE
+2025-06-13 11:03:23,525 - INFO - Processed 118 resumes from FINANCE
+2025-06-13 11:03:23,526 - INFO - Processing sector: FITNESS
+2025-06-13 11:03:25,971 - INFO - Processed 117 resumes from FITNESS
+2025-06-13 11:03:25,972 - INFO - Processing sector: HEALTHCARE
+2025-06-13 11:03:28,525 - INFO - Processed 115 resumes from HEALTHCARE
+2025-06-13 11:03:28,526 - INFO - Processing sector: HR
+2025-06-13 11:03:30,966 - INFO - Processed 110 resumes from HR
+2025-06-13 11:03:30,967 - INFO - Processing sector: INFORMATION-TECHNOLOGY
+2025-06-13 11:03:33,573 - INFO - Processed 120 resumes from INFORMATION-TECHNOLOGY
+2025-06-13 11:03:33,573 - INFO - Processing sector: PUBLIC-RELATIONS
+2025-06-13 11:03:36,144 - INFO - Processed 111 resumes from PUBLIC-RELATIONS
+2025-06-13 11:03:36,144 - INFO - Processing sector: SALES
+2025-06-13 11:03:38,480 - INFO - Processed 116 resumes from SALES
+2025-06-13 11:03:38,481 - INFO - Processing sector: TEACHER
+2025-06-13 11:03:40,559 - INFO - Processed 102 resumes from TEACHER
+2025-06-13 11:03:40,560 - INFO - Total resumes processed: 2484
+2025-06-13 11:03:40,602 - INFO - Starting ranking process for 2484 resumes
+2025-06-13 11:04:12,246 - INFO - Successfully ranked 2484 resumes
+2025-06-13 11:04:12,816 - INFO - Results exported to ranking_results.json
+2025-06-13 11:04:17,620 - ERROR - Error exporting detailed results: [Errno 13] Permission denied: 'detailed_resume_ranking.csv'
+2025-06-13 11:04:17,620 - ERROR - API Error: [Errno 13] Permission denied: 'detailed_resume_ranking.csv'
+2025-06-13 11:04:17,632 - ERROR - Processing failed: [Errno 13] Permission denied: 'detailed_resume_ranking.csv'
+2025-06-13 11:04:36,113 - INFO - SpaCy model loaded successfully
+2025-06-13 11:04:36,114 - INFO - Resume Ranker initialized successfully
+2025-06-13 11:04:36,116 - INFO - Processing resumes from ..\data\data\data
+2025-06-13 11:04:36,118 - INFO - Processing sector: ACCOUNTANT
+2025-06-13 11:04:37,466 - INFO - Processed 118 resumes from ACCOUNTANT
+2025-06-13 11:04:37,467 - INFO - Processing sector: ADVOCATE
+2025-06-13 11:04:38,887 - INFO - Processed 118 resumes from ADVOCATE
+2025-06-13 11:04:38,888 - INFO - Processing sector: AGRICULTURE
+2025-06-13 11:04:39,665 - INFO - Processed 63 resumes from AGRICULTURE
+2025-06-13 11:04:39,666 - INFO - Processing sector: APPAREL
+2025-06-13 11:04:40,673 - INFO - Processed 97 resumes from APPAREL
+2025-06-13 11:04:40,674 - INFO - Processing sector: ARTS
+2025-06-13 11:04:41,820 - INFO - Processed 104 resumes from ARTS
+2025-06-13 11:04:41,820 - INFO - Processing sector: AUTOMOBILE
+2025-06-13 11:04:42,172 - INFO - Processed 36 resumes from AUTOMOBILE
+2025-06-13 11:04:42,173 - INFO - Processing sector: AVIATION
+2025-06-13 11:04:43,311 - INFO - Processed 117 resumes from AVIATION
+2025-06-13 11:04:43,312 - INFO - Processing sector: BANKING
+2025-06-13 11:04:44,381 - INFO - Processed 115 resumes from BANKING
+2025-06-13 11:04:44,382 - INFO - Processing sector: BPO
+2025-06-13 11:04:44,613 - INFO - Processed 22 resumes from BPO
+2025-06-13 11:04:44,613 - INFO - Processing sector: BUSINESS-DEVELOPMENT
+2025-06-13 11:04:44,756 - WARNING - Insufficient text extracted from 12632728.pdf
+2025-06-13 11:04:45,783 - INFO - Processed 119 resumes from BUSINESS-DEVELOPMENT
+2025-06-13 11:04:45,784 - INFO - Processing sector: CHEF
+2025-06-13 11:04:46,852 - INFO - Processed 118 resumes from CHEF
+2025-06-13 11:04:46,853 - INFO - Processing sector: CONSTRUCTION
+2025-06-13 11:04:47,926 - INFO - Processed 112 resumes from CONSTRUCTION
+2025-06-13 11:04:47,928 - INFO - Processing sector: CONSULTANT
+2025-06-13 11:04:49,211 - INFO - Processed 115 resumes from CONSULTANT
+2025-06-13 11:04:49,211 - INFO - Processing sector: DESIGNER
+2025-06-13 11:04:50,226 - INFO - Processed 107 resumes from DESIGNER
+2025-06-13 11:04:50,227 - INFO - Processing sector: DIGITAL-MEDIA
+2025-06-13 11:04:51,123 - INFO - Processed 96 resumes from DIGITAL-MEDIA
+2025-06-13 11:04:51,124 - INFO - Processing sector: ENGINEERING
+2025-06-13 11:04:52,239 - INFO - Processed 118 resumes from ENGINEERING
+2025-06-13 11:04:52,240 - INFO - Processing sector: FINANCE
+2025-06-13 11:04:53,406 - INFO - Processed 118 resumes from FINANCE
+2025-06-13 11:04:53,406 - INFO - Processing sector: FITNESS
+2025-06-13 11:04:54,485 - INFO - Processed 117 resumes from FITNESS
+2025-06-13 11:04:54,486 - INFO - Processing sector: HEALTHCARE
+2025-06-13 11:04:55,633 - INFO - Processed 115 resumes from HEALTHCARE
+2025-06-13 11:04:55,633 - INFO - Processing sector: HR
+2025-06-13 11:04:56,698 - INFO - Processed 110 resumes from HR
+2025-06-13 11:04:56,699 - INFO - Processing sector: INFORMATION-TECHNOLOGY
+2025-06-13 11:04:58,030 - INFO - Processed 120 resumes from INFORMATION-TECHNOLOGY
+2025-06-13 11:04:58,031 - INFO - Processing sector: PUBLIC-RELATIONS
+2025-06-13 11:04:59,143 - INFO - Processed 111 resumes from PUBLIC-RELATIONS
+2025-06-13 11:04:59,144 - INFO - Processing sector: SALES
+2025-06-13 11:05:00,122 - INFO - Processed 116 resumes from SALES
+2025-06-13 11:05:00,122 - INFO - Processing sector: TEACHER
+2025-06-13 11:05:01,041 - INFO - Processed 102 resumes from TEACHER
+2025-06-13 11:05:01,042 - INFO - Total resumes processed: 2484
+2025-06-13 11:05:01,082 - INFO - Starting ranking process for 2484 resumes
+2025-06-13 11:05:32,116 - INFO - Successfully ranked 2484 resumes
+2025-06-13 11:05:32,674 - INFO - Results exported to ranking_results.json
+2025-06-13 11:05:37,081 - INFO - Detailed results exported to detailed_resume_ranking.csv
+2025-06-13 11:05:37,113 - INFO - Resume ranking completed successfully
+2025-06-13 11:15:03,855 - INFO - SpaCy model loaded successfully
+2025-06-13 11:15:03,855 - INFO - Resume Ranker initialized successfully
+2025-06-13 11:15:03,858 - INFO - Processing resumes from ..\data\data\data
+2025-06-13 11:15:03,859 - INFO - Processing sector: ACCOUNTANT
+2025-06-13 11:15:04,994 - INFO - Processed 118 resumes from ACCOUNTANT
+2025-06-13 11:15:04,994 - INFO - Processing sector: ADVOCATE
+2025-06-13 11:15:06,232 - INFO - Processed 118 resumes from ADVOCATE
+2025-06-13 11:15:06,233 - INFO - Processing sector: AGRICULTURE
+2025-06-13 11:15:06,850 - INFO - Processed 63 resumes from AGRICULTURE
+2025-06-13 11:15:06,851 - INFO - Processing sector: APPAREL
+2025-06-13 11:15:07,732 - INFO - Processed 97 resumes from APPAREL
+2025-06-13 11:15:07,733 - INFO - Processing sector: ARTS
+2025-06-13 11:15:08,676 - INFO - Processed 104 resumes from ARTS
+2025-06-13 11:15:08,677 - INFO - Processing sector: AUTOMOBILE
+2025-06-13 11:15:09,049 - INFO - Processed 36 resumes from AUTOMOBILE
+2025-06-13 11:15:09,050 - INFO - Processing sector: AVIATION
+2025-06-13 11:15:10,314 - INFO - Processed 117 resumes from AVIATION
+2025-06-13 11:15:10,315 - INFO - Processing sector: BANKING
+2025-06-13 11:15:11,649 - INFO - Processed 115 resumes from BANKING
+2025-06-13 11:15:11,650 - INFO - Processing sector: BPO
+2025-06-13 11:15:11,909 - INFO - Processed 22 resumes from BPO
+2025-06-13 11:15:11,909 - INFO - Processing sector: BUSINESS-DEVELOPMENT
+2025-06-13 11:15:12,045 - WARNING - Insufficient text extracted from 12632728.pdf
+2025-06-13 11:15:13,124 - INFO - Processed 119 resumes from BUSINESS-DEVELOPMENT
+2025-06-13 11:15:13,125 - INFO - Processing sector: CHEF
+2025-06-13 11:15:14,268 - INFO - Processed 118 resumes from CHEF
+2025-06-13 11:15:14,269 - INFO - Processing sector: CONSTRUCTION
+2025-06-13 11:15:15,448 - INFO - Processed 112 resumes from CONSTRUCTION
+2025-06-13 11:15:15,449 - INFO - Processing sector: CONSULTANT
+2025-06-13 11:15:16,587 - INFO - Processed 115 resumes from CONSULTANT
+2025-06-13 11:15:16,589 - INFO - Processing sector: DESIGNER
+2025-06-13 11:15:17,567 - INFO - Processed 107 resumes from DESIGNER
+2025-06-13 11:15:17,568 - INFO - Processing sector: DIGITAL-MEDIA
+2025-06-13 11:15:18,481 - INFO - Processed 96 resumes from DIGITAL-MEDIA
+2025-06-13 11:15:18,482 - INFO - Processing sector: ENGINEERING
+2025-06-13 11:15:19,576 - INFO - Processed 118 resumes from ENGINEERING
+2025-06-13 11:15:19,577 - INFO - Processing sector: FINANCE
+2025-06-13 11:15:20,715 - INFO - Processed 118 resumes from FINANCE
+2025-06-13 11:15:20,716 - INFO - Processing sector: FITNESS
+2025-06-13 11:15:21,798 - INFO - Processed 117 resumes from FITNESS
+2025-06-13 11:15:21,798 - INFO - Processing sector: HEALTHCARE
+2025-06-13 11:15:22,957 - INFO - Processed 115 resumes from HEALTHCARE
+2025-06-13 11:15:22,957 - INFO - Processing sector: HR
+2025-06-13 11:15:24,072 - INFO - Processed 110 resumes from HR
+2025-06-13 11:15:24,073 - INFO - Processing sector: INFORMATION-TECHNOLOGY
+2025-06-13 11:15:25,370 - INFO - Processed 120 resumes from INFORMATION-TECHNOLOGY
+2025-06-13 11:15:25,371 - INFO - Processing sector: PUBLIC-RELATIONS
+2025-06-13 11:15:26,535 - INFO - Processed 111 resumes from PUBLIC-RELATIONS
+2025-06-13 11:15:26,535 - INFO - Processing sector: SALES
+2025-06-13 11:15:27,476 - INFO - Processed 116 resumes from SALES
+2025-06-13 11:15:27,477 - INFO - Processing sector: TEACHER
+2025-06-13 11:15:28,402 - INFO - Processed 102 resumes from TEACHER
+2025-06-13 11:15:28,402 - INFO - Total resumes processed: 2484
+2025-06-13 11:15:28,441 - INFO - Starting ranking process for 2484 resumes
+2025-06-13 11:16:00,629 - INFO - Successfully ranked 2484 resumes
+2025-06-13 11:16:01,204 - INFO - Results exported to ranking_results.json
+2025-06-13 11:16:06,217 - ERROR - Error exporting detailed results: [Errno 13] Permission denied: 'detailed_resume_ranking.csv'
+2025-06-13 11:16:06,217 - ERROR - API Error: [Errno 13] Permission denied: 'detailed_resume_ranking.csv'
+2025-06-13 11:16:22,427 - INFO - SpaCy model loaded successfully
+2025-06-13 11:16:22,428 - INFO - Resume Ranker initialized successfully
+2025-06-13 11:16:22,431 - INFO - Processing resumes from ..\data\data\data
+2025-06-13 11:16:22,432 - INFO - Processing sector: ACCOUNTANT
+2025-06-13 11:16:23,810 - INFO - Processed 118 resumes from ACCOUNTANT
+2025-06-13 11:16:23,811 - INFO - Processing sector: ADVOCATE
+2025-06-13 11:16:25,064 - INFO - Processed 118 resumes from ADVOCATE
+2025-06-13 11:16:25,065 - INFO - Processing sector: AGRICULTURE
+2025-06-13 11:16:25,691 - INFO - Processed 63 resumes from AGRICULTURE
+2025-06-13 11:16:25,692 - INFO - Processing sector: APPAREL
+2025-06-13 11:16:26,616 - INFO - Processed 97 resumes from APPAREL
+2025-06-13 11:16:26,617 - INFO - Processing sector: ARTS
+2025-06-13 11:16:27,644 - INFO - Processed 104 resumes from ARTS
+2025-06-13 11:16:27,645 - INFO - Processing sector: AUTOMOBILE
+2025-06-13 11:16:28,015 - INFO - Processed 36 resumes from AUTOMOBILE
+2025-06-13 11:16:28,016 - INFO - Processing sector: AVIATION
+2025-06-13 11:16:29,150 - INFO - Processed 117 resumes from AVIATION
+2025-06-13 11:16:29,151 - INFO - Processing sector: BANKING
+2025-06-13 11:16:30,285 - INFO - Processed 115 resumes from BANKING
+2025-06-13 11:16:30,285 - INFO - Processing sector: BPO
+2025-06-13 11:16:30,557 - INFO - Processed 22 resumes from BPO
+2025-06-13 11:16:30,558 - INFO - Processing sector: BUSINESS-DEVELOPMENT
+2025-06-13 11:16:30,694 - WARNING - Insufficient text extracted from 12632728.pdf
+2025-06-13 11:16:31,819 - INFO - Processed 119 resumes from BUSINESS-DEVELOPMENT
+2025-06-13 11:16:31,820 - INFO - Processing sector: CHEF
+2025-06-13 11:16:33,035 - INFO - Processed 118 resumes from CHEF
+2025-06-13 11:16:33,035 - INFO - Processing sector: CONSTRUCTION
+2025-06-13 11:16:34,147 - INFO - Processed 112 resumes from CONSTRUCTION
+2025-06-13 11:16:34,148 - INFO - Processing sector: CONSULTANT
+2025-06-13 11:16:35,343 - INFO - Processed 115 resumes from CONSULTANT
+2025-06-13 11:16:35,344 - INFO - Processing sector: DESIGNER
+2025-06-13 11:16:36,381 - INFO - Processed 107 resumes from DESIGNER
+2025-06-13 11:16:36,381 - INFO - Processing sector: DIGITAL-MEDIA
+2025-06-13 11:16:37,262 - INFO - Processed 96 resumes from DIGITAL-MEDIA
+2025-06-13 11:16:37,263 - INFO - Processing sector: ENGINEERING
+2025-06-13 11:16:38,374 - INFO - Processed 118 resumes from ENGINEERING
+2025-06-13 11:16:38,375 - INFO - Processing sector: FINANCE
+2025-06-13 11:16:39,804 - INFO - Processed 118 resumes from FINANCE
+2025-06-13 11:16:39,805 - INFO - Processing sector: FITNESS
+2025-06-13 11:16:41,002 - INFO - Processed 117 resumes from FITNESS
+2025-06-13 11:16:41,003 - INFO - Processing sector: HEALTHCARE
+2025-06-13 11:16:42,238 - INFO - Processed 115 resumes from HEALTHCARE
+2025-06-13 11:16:42,239 - INFO - Processing sector: HR
+2025-06-13 11:16:43,479 - INFO - Processed 110 resumes from HR
+2025-06-13 11:16:43,479 - INFO - Processing sector: INFORMATION-TECHNOLOGY
+2025-06-13 11:16:44,746 - INFO - Processed 120 resumes from INFORMATION-TECHNOLOGY
+2025-06-13 11:16:44,747 - INFO - Processing sector: PUBLIC-RELATIONS
+2025-06-13 11:16:45,849 - INFO - Processed 111 resumes from PUBLIC-RELATIONS
+2025-06-13 11:16:45,850 - INFO - Processing sector: SALES
+2025-06-13 11:16:46,931 - INFO - Processed 116 resumes from SALES
+2025-06-13 11:16:46,932 - INFO - Processing sector: TEACHER
+2025-06-13 11:16:48,110 - INFO - Processed 102 resumes from TEACHER
+2025-06-13 11:16:48,110 - INFO - Total resumes processed: 2484
+2025-06-13 11:16:48,161 - INFO - Starting ranking process for 2484 resumes
+2025-06-13 11:17:19,570 - INFO - Successfully ranked 2484 resumes
+2025-06-13 11:17:20,100 - INFO - Results exported to ranking_results.json
+2025-06-13 11:17:24,568 - INFO - Detailed results exported to detailed_resume_ranking.csv
+2025-06-13 15:50:01,444 - INFO - SpaCy model loaded successfully
+2025-06-13 15:50:01,444 - INFO - Resume Ranker initialized successfully
+2025-06-13 15:50:01,444 - INFO - Processing resumes from ..\data\data\data
+2025-06-13 15:50:01,444 - INFO - Processing sector: ACCOUNTANT
+2025-06-13 15:50:02,650 - INFO - Processed 118 resumes from ACCOUNTANT
+2025-06-13 15:50:02,650 - INFO - Processing sector: ADVOCATE
+2025-06-13 15:50:03,912 - INFO - Processed 118 resumes from ADVOCATE
+2025-06-13 15:50:03,912 - INFO - Processing sector: AGRICULTURE
+2025-06-13 15:50:04,522 - INFO - Processed 63 resumes from AGRICULTURE
+2025-06-13 15:50:04,522 - INFO - Processing sector: APPAREL
+2025-06-13 15:50:05,631 - INFO - Processed 97 resumes from APPAREL
+2025-06-13 15:50:05,631 - INFO - Processing sector: ARTS
+2025-06-13 15:50:06,662 - INFO - Processed 104 resumes from ARTS
+2025-06-13 15:50:06,662 - INFO - Processing sector: AUTOMOBILE
+2025-06-13 15:50:07,006 - INFO - Processed 36 resumes from AUTOMOBILE
+2025-06-13 15:50:07,006 - INFO - Processing sector: AVIATION
+2025-06-13 15:50:08,158 - INFO - Processed 117 resumes from AVIATION
+2025-06-13 15:50:08,158 - INFO - Processing sector: BANKING
+2025-06-13 15:50:09,337 - INFO - Processed 115 resumes from BANKING
+2025-06-13 15:50:09,337 - INFO - Processing sector: BPO
+2025-06-13 15:50:09,634 - INFO - Processed 22 resumes from BPO
+2025-06-13 15:50:09,634 - INFO - Processing sector: BUSINESS-DEVELOPMENT
+2025-06-13 15:50:09,790 - WARNING - Insufficient text extracted from 12632728.pdf
+2025-06-13 15:50:10,909 - INFO - Processed 119 resumes from BUSINESS-DEVELOPMENT
+2025-06-13 15:50:10,909 - INFO - Processing sector: CHEF
+2025-06-13 15:50:12,113 - INFO - Processed 118 resumes from CHEF
+2025-06-13 15:50:12,113 - INFO - Processing sector: CONSTRUCTION
+2025-06-13 15:50:13,425 - INFO - Processed 112 resumes from CONSTRUCTION
+2025-06-13 15:50:13,425 - INFO - Processing sector: CONSULTANT
+2025-06-13 15:50:14,706 - INFO - Processed 115 resumes from CONSULTANT
+2025-06-13 15:50:14,706 - INFO - Processing sector: DESIGNER
+2025-06-13 15:50:15,753 - INFO - Processed 107 resumes from DESIGNER
+2025-06-13 15:50:15,753 - INFO - Processing sector: DIGITAL-MEDIA
+2025-06-13 15:50:16,644 - INFO - Processed 96 resumes from DIGITAL-MEDIA
+2025-06-13 15:50:16,644 - INFO - Processing sector: ENGINEERING
+2025-06-13 15:50:17,972 - INFO - Processed 118 resumes from ENGINEERING
+2025-06-13 15:50:17,972 - INFO - Processing sector: FINANCE
+2025-06-13 15:50:19,191 - INFO - Processed 118 resumes from FINANCE
+2025-06-13 15:50:19,191 - INFO - Processing sector: FITNESS
+2025-06-13 15:50:20,206 - INFO - Processed 117 resumes from FITNESS
+2025-06-13 15:50:20,206 - INFO - Processing sector: HEALTHCARE
+2025-06-13 15:50:21,648 - INFO - Processed 115 resumes from HEALTHCARE
+2025-06-13 15:50:21,648 - INFO - Processing sector: HR
+2025-06-13 15:50:22,792 - INFO - Processed 110 resumes from HR
+2025-06-13 15:50:22,792 - INFO - Processing sector: INFORMATION-TECHNOLOGY
+2025-06-13 15:50:24,057 - INFO - Processed 120 resumes from INFORMATION-TECHNOLOGY
+2025-06-13 15:50:24,057 - INFO - Processing sector: PUBLIC-RELATIONS
+2025-06-13 15:50:25,363 - INFO - Processed 111 resumes from PUBLIC-RELATIONS
+2025-06-13 15:50:25,363 - INFO - Processing sector: SALES
+2025-06-13 15:50:26,566 - INFO - Processed 116 resumes from SALES
+2025-06-13 15:50:26,566 - INFO - Processing sector: TEACHER
+2025-06-13 15:50:27,473 - INFO - Processed 102 resumes from TEACHER
+2025-06-13 15:50:27,473 - INFO - Total resumes processed: 2484
+2025-06-13 15:50:27,520 - INFO - Starting ranking process for 2484 resumes
+2025-06-13 15:50:59,450 - INFO - Successfully ranked 2484 resumes
+2025-06-13 15:50:59,919 - INFO - Results exported to ranking_results.json
+2025-06-13 15:51:04,520 - INFO - Detailed results exported to detailed_resume_ranking.csv
+2025-06-13 15:51:04,630 - INFO - Starting ranking process for 1 resumes
+2025-06-13 15:51:04,708 - INFO - Successfully ranked 1 resumes
+2025-06-13 15:53:48,441 - INFO - SpaCy model loaded successfully
+2025-06-13 15:53:48,441 - INFO - Resume Ranker initialized successfully
+2025-06-13 15:53:48,458 - INFO - Processing resumes from ..\data\data\data
+2025-06-13 15:53:48,458 - INFO - Processing sector: ACCOUNTANT
+2025-06-13 15:53:49,659 - INFO - Processed 118 resumes from ACCOUNTANT
+2025-06-13 15:53:49,659 - INFO - Processing sector: ADVOCATE
+2025-06-13 15:53:50,794 - INFO - Processed 118 resumes from ADVOCATE
+2025-06-13 15:53:50,794 - INFO - Processing sector: AGRICULTURE
+2025-06-13 15:53:51,478 - INFO - Processed 63 resumes from AGRICULTURE
+2025-06-13 15:53:51,494 - INFO - Processing sector: APPAREL
+2025-06-13 15:53:52,596 - INFO - Processed 97 resumes from APPAREL
+2025-06-13 15:53:52,596 - INFO - Processing sector: ARTS
+2025-06-13 15:53:53,681 - INFO - Processed 104 resumes from ARTS
+2025-06-13 15:53:53,681 - INFO - Processing sector: AUTOMOBILE
+2025-06-13 15:53:54,014 - INFO - Processed 36 resumes from AUTOMOBILE
+2025-06-13 15:53:54,014 - INFO - Processing sector: AVIATION
+2025-06-13 15:53:55,199 - INFO - Processed 117 resumes from AVIATION
+2025-06-13 15:53:55,199 - INFO - Processing sector: BANKING
+2025-06-13 15:53:56,350 - INFO - Processed 115 resumes from BANKING
+2025-06-13 15:53:56,350 - INFO - Processing sector: BPO
+2025-06-13 15:53:56,634 - INFO - Processed 22 resumes from BPO
+2025-06-13 15:53:56,634 - INFO - Processing sector: BUSINESS-DEVELOPMENT
+2025-06-13 15:53:56,784 - WARNING - Insufficient text extracted from 12632728.pdf
+2025-06-13 15:53:57,768 - INFO - Processed 119 resumes from BUSINESS-DEVELOPMENT
+2025-06-13 15:53:57,768 - INFO - Processing sector: CHEF
+2025-06-13 15:53:58,819 - INFO - Processed 118 resumes from CHEF
+2025-06-13 15:53:58,819 - INFO - Processing sector: CONSTRUCTION
+2025-06-13 15:53:59,887 - INFO - Processed 112 resumes from CONSTRUCTION
+2025-06-13 15:53:59,887 - INFO - Processing sector: CONSULTANT
+2025-06-13 15:54:01,155 - INFO - Processed 115 resumes from CONSULTANT
+2025-06-13 15:54:01,155 - INFO - Processing sector: DESIGNER
+2025-06-13 15:54:02,273 - INFO - Processed 107 resumes from DESIGNER
+2025-06-13 15:54:02,273 - INFO - Processing sector: DIGITAL-MEDIA
+2025-06-13 15:54:03,208 - INFO - Processed 96 resumes from DIGITAL-MEDIA
+2025-06-13 15:54:03,208 - INFO - Processing sector: ENGINEERING
+2025-06-13 15:54:04,426 - INFO - Processed 118 resumes from ENGINEERING
+2025-06-13 15:54:04,426 - INFO - Processing sector: FINANCE
+2025-06-13 15:54:05,527 - INFO - Processed 118 resumes from FINANCE
+2025-06-13 15:54:05,527 - INFO - Processing sector: FITNESS
+2025-06-13 15:54:06,528 - INFO - Processed 117 resumes from FITNESS
+2025-06-13 15:54:06,528 - INFO - Processing sector: HEALTHCARE
+2025-06-13 15:54:07,730 - INFO - Processed 115 resumes from HEALTHCARE
+2025-06-13 15:54:07,730 - INFO - Processing sector: HR
+2025-06-13 15:54:08,914 - INFO - Processed 110 resumes from HR
+2025-06-13 15:54:08,930 - INFO - Processing sector: INFORMATION-TECHNOLOGY
+2025-06-13 15:54:10,132 - INFO - Processed 120 resumes from INFORMATION-TECHNOLOGY
+2025-06-13 15:54:10,132 - INFO - Processing sector: PUBLIC-RELATIONS
+2025-06-13 15:54:11,200 - INFO - Processed 111 resumes from PUBLIC-RELATIONS
+2025-06-13 15:54:11,200 - INFO - Processing sector: SALES
+2025-06-13 15:54:12,168 - INFO - Processed 116 resumes from SALES
+2025-06-13 15:54:12,168 - INFO - Processing sector: TEACHER
+2025-06-13 15:54:13,069 - INFO - Processed 102 resumes from TEACHER
+2025-06-13 15:54:13,069 - INFO - Total resumes processed: 2484
+2025-06-13 15:54:13,119 - INFO - Starting ranking process for 2484 resumes
+2025-06-13 15:54:45,205 - INFO - Successfully ranked 2484 resumes
+2025-06-13 15:54:45,789 - INFO - Results exported to ranking_results.json
+2025-06-13 15:54:50,411 - INFO - Detailed results exported to detailed_resume_ranking.csv
+2025-06-13 15:54:50,511 - INFO - Starting ranking process for 1 resumes
+2025-06-13 15:54:50,595 - INFO - Successfully ranked 1 resumes
+2025-06-13 16:00:23,950 - INFO - SpaCy model loaded successfully
+2025-06-13 16:00:23,950 - INFO - Resume Ranker initialized successfully
+2025-06-13 16:00:23,950 - INFO - Processing resumes from ..\data\data\data
+2025-06-13 16:00:23,950 - INFO - Processing sector: ACCOUNTANT
+2025-06-13 16:00:25,247 - INFO - Processed 118 resumes from ACCOUNTANT
+2025-06-13 16:00:25,247 - INFO - Processing sector: ADVOCATE
+2025-06-13 16:00:26,497 - INFO - Processed 118 resumes from ADVOCATE
+2025-06-13 16:00:26,497 - INFO - Processing sector: AGRICULTURE
+2025-06-13 16:00:27,294 - INFO - Processed 63 resumes from AGRICULTURE
+2025-06-13 16:00:27,294 - INFO - Processing sector: APPAREL
+2025-06-13 16:00:28,227 - INFO - Processed 97 resumes from APPAREL
+2025-06-13 16:00:28,227 - INFO - Processing sector: ARTS
+2025-06-13 16:00:29,211 - INFO - Processed 104 resumes from ARTS
+2025-06-13 16:00:29,211 - INFO - Processing sector: AUTOMOBILE
+2025-06-13 16:00:29,602 - INFO - Processed 36 resumes from AUTOMOBILE
+2025-06-13 16:00:29,602 - INFO - Processing sector: AVIATION
+2025-06-13 16:00:30,914 - INFO - Processed 117 resumes from AVIATION
+2025-06-13 16:00:30,914 - INFO - Processing sector: BANKING
+2025-06-13 16:00:32,031 - INFO - Processed 115 resumes from BANKING
+2025-06-13 16:00:32,031 - INFO - Processing sector: BPO
+2025-06-13 16:00:32,249 - INFO - Processed 22 resumes from BPO
+2025-06-13 16:00:32,249 - INFO - Processing sector: BUSINESS-DEVELOPMENT
+2025-06-13 16:00:32,390 - WARNING - Insufficient text extracted from 12632728.pdf
+2025-06-13 16:00:33,390 - INFO - Processed 119 resumes from BUSINESS-DEVELOPMENT
+2025-06-13 16:00:33,406 - INFO - Processing sector: CHEF
+2025-06-13 16:00:34,623 - INFO - Processed 118 resumes from CHEF
+2025-06-13 16:00:34,623 - INFO - Processing sector: CONSTRUCTION
+2025-06-13 16:00:35,889 - INFO - Processed 112 resumes from CONSTRUCTION
+2025-06-13 16:00:35,889 - INFO - Processing sector: CONSULTANT
+2025-06-13 16:00:37,123 - INFO - Processed 115 resumes from CONSULTANT
+2025-06-13 16:00:37,123 - INFO - Processing sector: DESIGNER
+2025-06-13 16:00:38,207 - INFO - Processed 107 resumes from DESIGNER
+2025-06-13 16:00:38,207 - INFO - Processing sector: DIGITAL-MEDIA
+2025-06-13 16:00:39,176 - INFO - Processed 96 resumes from DIGITAL-MEDIA
+2025-06-13 16:00:39,176 - INFO - Processing sector: ENGINEERING
+2025-06-13 16:00:40,316 - INFO - Processed 118 resumes from ENGINEERING
+2025-06-13 16:00:40,316 - INFO - Processing sector: FINANCE
+2025-06-13 16:00:41,552 - INFO - Processed 118 resumes from FINANCE
+2025-06-13 16:00:41,552 - INFO - Processing sector: FITNESS
+2025-06-13 16:00:42,755 - INFO - Processed 117 resumes from FITNESS
+2025-06-13 16:00:42,755 - INFO - Processing sector: HEALTHCARE
+2025-06-13 16:00:44,115 - INFO - Processed 115 resumes from HEALTHCARE
+2025-06-13 16:00:44,115 - INFO - Processing sector: HR
+2025-06-13 16:00:45,333 - INFO - Processed 110 resumes from HR
+2025-06-13 16:00:45,333 - INFO - Processing sector: INFORMATION-TECHNOLOGY
+2025-06-13 16:00:46,677 - INFO - Processed 120 resumes from INFORMATION-TECHNOLOGY
+2025-06-13 16:00:46,677 - INFO - Processing sector: PUBLIC-RELATIONS
+2025-06-13 16:00:47,831 - INFO - Processed 111 resumes from PUBLIC-RELATIONS
+2025-06-13 16:00:47,831 - INFO - Processing sector: SALES
+2025-06-13 16:00:48,860 - INFO - Processed 116 resumes from SALES
+2025-06-13 16:00:48,860 - INFO - Processing sector: TEACHER
+2025-06-13 16:00:49,781 - INFO - Processed 102 resumes from TEACHER
+2025-06-13 16:00:49,781 - INFO - Total resumes processed: 2484
+2025-06-13 16:00:49,828 - INFO - Starting ranking process for 2484 resumes
+2025-06-13 16:01:22,290 - INFO - Successfully ranked 2484 resumes
+2025-06-13 16:01:22,836 - INFO - Results exported to ranking_results.json
+2025-06-13 16:01:27,259 - INFO - Detailed results exported to detailed_resume_ranking.csv
+2025-06-13 16:01:27,369 - INFO - Starting ranking process for 1 resumes
+2025-06-13 16:01:27,447 - INFO - Successfully ranked 1 resumes
+2025-06-13 16:15:54,604 - INFO - SpaCy model loaded successfully
+2025-06-13 16:15:54,620 - INFO - Resume Ranker initialized successfully
+2025-06-13 16:15:54,620 - INFO - Processing resumes from ..\data\data\data
+2025-06-13 16:15:54,620 - INFO - Processing sector: ACCOUNTANT
+2025-06-13 16:15:55,811 - INFO - Processed 118 resumes from ACCOUNTANT
+2025-06-13 16:15:55,811 - INFO - Processing sector: ADVOCATE
+2025-06-13 16:15:57,246 - INFO - Processed 118 resumes from ADVOCATE
+2025-06-13 16:15:57,246 - INFO - Processing sector: AGRICULTURE
+2025-06-13 16:15:57,918 - INFO - Processed 63 resumes from AGRICULTURE
+2025-06-13 16:15:57,918 - INFO - Processing sector: APPAREL
+2025-06-13 16:15:58,920 - INFO - Processed 97 resumes from APPAREL
+2025-06-13 16:15:58,920 - INFO - Processing sector: ARTS
+2025-06-13 16:15:59,906 - INFO - Processed 104 resumes from ARTS
+2025-06-13 16:15:59,906 - INFO - Processing sector: AUTOMOBILE
+2025-06-13 16:16:00,404 - INFO - Processed 36 resumes from AUTOMOBILE
+2025-06-13 16:16:00,404 - INFO - Processing sector: AVIATION
+2025-06-13 16:16:01,607 - INFO - Processed 117 resumes from AVIATION
+2025-06-13 16:16:01,607 - INFO - Processing sector: BANKING
+2025-06-13 16:16:02,732 - INFO - Processed 115 resumes from BANKING
+2025-06-13 16:16:02,732 - INFO - Processing sector: BPO
+2025-06-13 16:16:03,007 - INFO - Processed 22 resumes from BPO
+2025-06-13 16:16:03,007 - INFO - Processing sector: BUSINESS-DEVELOPMENT
+2025-06-13 16:16:03,176 - WARNING - Insufficient text extracted from 12632728.pdf
+2025-06-13 16:16:04,238 - INFO - Processed 119 resumes from BUSINESS-DEVELOPMENT
+2025-06-13 16:16:04,238 - INFO - Processing sector: CHEF
+2025-06-13 16:16:05,441 - INFO - Processed 118 resumes from CHEF
+2025-06-13 16:16:05,441 - INFO - Processing sector: CONSTRUCTION
+2025-06-13 16:16:06,519 - INFO - Processed 112 resumes from CONSTRUCTION
+2025-06-13 16:16:06,519 - INFO - Processing sector: CONSULTANT
+2025-06-13 16:16:07,707 - INFO - Processed 115 resumes from CONSULTANT
+2025-06-13 16:16:07,707 - INFO - Processing sector: DESIGNER
+2025-06-13 16:16:08,677 - INFO - Processed 107 resumes from DESIGNER
+2025-06-13 16:16:08,677 - INFO - Processing sector: DIGITAL-MEDIA
+2025-06-13 16:16:09,599 - INFO - Processed 96 resumes from DIGITAL-MEDIA
+2025-06-13 16:16:09,599 - INFO - Processing sector: ENGINEERING
+2025-06-13 16:16:10,692 - INFO - Processed 118 resumes from ENGINEERING
+2025-06-13 16:16:10,692 - INFO - Processing sector: FINANCE
+2025-06-13 16:16:11,739 - INFO - Processed 118 resumes from FINANCE
+2025-06-13 16:16:11,755 - INFO - Processing sector: FITNESS
+2025-06-13 16:16:12,819 - INFO - Processed 117 resumes from FITNESS
+2025-06-13 16:16:12,819 - INFO - Processing sector: HEALTHCARE
+2025-06-13 16:16:14,085 - INFO - Processed 115 resumes from HEALTHCARE
+2025-06-13 16:16:14,085 - INFO - Processing sector: HR
+2025-06-13 16:16:15,147 - INFO - Processed 110 resumes from HR
+2025-06-13 16:16:15,147 - INFO - Processing sector: INFORMATION-TECHNOLOGY
+2025-06-13 16:16:16,361 - INFO - Processed 120 resumes from INFORMATION-TECHNOLOGY
+2025-06-13 16:16:16,361 - INFO - Processing sector: PUBLIC-RELATIONS
+2025-06-13 16:16:17,517 - INFO - Processed 111 resumes from PUBLIC-RELATIONS
+2025-06-13 16:16:17,517 - INFO - Processing sector: SALES
+2025-06-13 16:16:18,470 - INFO - Processed 116 resumes from SALES
+2025-06-13 16:16:18,470 - INFO - Processing sector: TEACHER
+2025-06-13 16:16:19,330 - INFO - Processed 102 resumes from TEACHER
+2025-06-13 16:16:19,330 - INFO - Total resumes processed: 2484
+2025-06-13 16:16:19,377 - INFO - Starting ranking process for 2484 resumes
+2025-06-13 16:16:52,299 - INFO - Successfully ranked 2484 resumes
+2025-06-13 16:16:52,841 - INFO - Results exported to ranking_results.json
+2025-06-13 16:16:57,626 - INFO - Detailed results exported to detailed_resume_ranking.csv
+2025-06-13 16:16:57,735 - INFO - Starting ranking process for 1 resumes
+2025-06-13 16:16:57,813 - INFO - Successfully ranked 1 resumes
+2025-06-13 16:19:50,120 - INFO - SpaCy model loaded successfully
+2025-06-13 16:19:50,120 - INFO - Resume Ranker initialized successfully
+2025-06-13 16:19:50,120 - INFO - Processing resumes from ..\data\data\data
+2025-06-13 16:19:50,120 - INFO - Processing sector: ACCOUNTANT
+2025-06-13 16:19:51,308 - INFO - Processed 118 resumes from ACCOUNTANT
+2025-06-13 16:19:51,308 - INFO - Processing sector: ADVOCATE
+2025-06-13 16:19:52,542 - INFO - Processed 118 resumes from ADVOCATE
+2025-06-13 16:19:52,542 - INFO - Processing sector: AGRICULTURE
+2025-06-13 16:19:53,213 - INFO - Processed 63 resumes from AGRICULTURE
+2025-06-13 16:19:53,213 - INFO - Processing sector: APPAREL
+2025-06-13 16:19:54,151 - INFO - Processed 97 resumes from APPAREL
+2025-06-13 16:19:54,167 - INFO - Processing sector: ARTS
+2025-06-13 16:19:55,323 - INFO - Processed 104 resumes from ARTS
+2025-06-13 16:19:55,323 - INFO - Processing sector: AUTOMOBILE
+2025-06-13 16:19:55,698 - INFO - Processed 36 resumes from AUTOMOBILE
+2025-06-13 16:19:55,698 - INFO - Processing sector: AVIATION
+2025-06-13 16:19:56,761 - INFO - Processed 117 resumes from AVIATION
+2025-06-13 16:19:56,761 - INFO - Processing sector: BANKING
+2025-06-13 16:19:57,792 - INFO - Processed 115 resumes from BANKING
+2025-06-13 16:19:57,792 - INFO - Processing sector: BPO
+2025-06-13 16:19:58,026 - INFO - Processed 22 resumes from BPO
+2025-06-13 16:19:58,026 - INFO - Processing sector: BUSINESS-DEVELOPMENT
+2025-06-13 16:19:58,151 - WARNING - Insufficient text extracted from 12632728.pdf
+2025-06-13 16:19:59,258 - INFO - Processed 119 resumes from BUSINESS-DEVELOPMENT
+2025-06-13 16:19:59,258 - INFO - Processing sector: CHEF
+2025-06-13 16:20:00,512 - INFO - Processed 118 resumes from CHEF
+2025-06-13 16:20:00,527 - INFO - Processing sector: CONSTRUCTION
+2025-06-13 16:20:01,559 - INFO - Processed 112 resumes from CONSTRUCTION
+2025-06-13 16:20:01,574 - INFO - Processing sector: CONSULTANT
+2025-06-13 16:20:02,793 - INFO - Processed 115 resumes from CONSULTANT
+2025-06-13 16:20:02,793 - INFO - Processing sector: DESIGNER
+2025-06-13 16:20:03,809 - INFO - Processed 107 resumes from DESIGNER
+2025-06-13 16:20:03,809 - INFO - Processing sector: DIGITAL-MEDIA
+2025-06-13 16:20:04,699 - INFO - Processed 96 resumes from DIGITAL-MEDIA
+2025-06-13 16:20:04,699 - INFO - Processing sector: ENGINEERING
+2025-06-13 16:20:05,844 - INFO - Processed 118 resumes from ENGINEERING
+2025-06-13 16:20:05,844 - INFO - Processing sector: FINANCE
+2025-06-13 16:20:06,964 - INFO - Processed 118 resumes from FINANCE
+2025-06-13 16:20:06,964 - INFO - Processing sector: FITNESS
+2025-06-13 16:20:08,042 - INFO - Processed 117 resumes from FITNESS
+2025-06-13 16:20:08,042 - INFO - Processing sector: HEALTHCARE
+2025-06-13 16:20:09,153 - INFO - Processed 115 resumes from HEALTHCARE
+2025-06-13 16:20:09,153 - INFO - Processing sector: HR
+2025-06-13 16:20:10,246 - INFO - Processed 110 resumes from HR
+2025-06-13 16:20:10,246 - INFO - Processing sector: INFORMATION-TECHNOLOGY
+2025-06-13 16:20:11,606 - INFO - Processed 120 resumes from INFORMATION-TECHNOLOGY
+2025-06-13 16:20:11,606 - INFO - Processing sector: PUBLIC-RELATIONS
+2025-06-13 16:20:12,770 - INFO - Processed 111 resumes from PUBLIC-RELATIONS
+2025-06-13 16:20:12,770 - INFO - Processing sector: SALES
+2025-06-13 16:20:13,692 - INFO - Processed 116 resumes from SALES
+2025-06-13 16:20:13,692 - INFO - Processing sector: TEACHER
+2025-06-13 16:20:14,583 - INFO - Processed 102 resumes from TEACHER
+2025-06-13 16:20:14,583 - INFO - Total resumes processed: 2484
+2025-06-13 16:20:14,645 - INFO - Starting ranking process for 2484 resumes
+2025-06-13 16:20:48,384 - INFO - Successfully ranked 2484 resumes
+2025-06-13 16:20:48,986 - INFO - Results exported to ranking_results.json
+2025-06-13 16:20:53,475 - INFO - Detailed results exported to detailed_resume_ranking.csv
+2025-06-13 16:20:53,568 - INFO - Starting ranking process for 1 resumes
+2025-06-13 16:20:53,647 - INFO - Successfully ranked 1 resumes
+2025-06-13 16:25:47,924 - INFO - SpaCy model loaded successfully
+2025-06-13 16:25:47,925 - INFO - Resume Ranker initialized successfully
+2025-06-13 16:25:47,926 - INFO - Processing resumes from ..\data\data\data
+2025-06-13 16:25:47,926 - INFO - Processing sector: ACCOUNTANT
+2025-06-13 16:25:49,079 - INFO - Processed 118 resumes from ACCOUNTANT
+2025-06-13 16:25:49,080 - INFO - Processing sector: ADVOCATE
+2025-06-13 16:25:50,463 - INFO - Processed 118 resumes from ADVOCATE
+2025-06-13 16:25:50,464 - INFO - Processing sector: AGRICULTURE
+2025-06-13 16:25:51,126 - INFO - Processed 63 resumes from AGRICULTURE
+2025-06-13 16:25:51,127 - INFO - Processing sector: APPAREL
+2025-06-13 16:25:52,136 - INFO - Processed 97 resumes from APPAREL
+2025-06-13 16:25:52,137 - INFO - Processing sector: ARTS
+2025-06-13 16:25:53,178 - INFO - Processed 104 resumes from ARTS
+2025-06-13 16:25:53,178 - INFO - Processing sector: AUTOMOBILE
+2025-06-13 16:25:53,550 - INFO - Processed 36 resumes from AUTOMOBILE
+2025-06-13 16:25:53,551 - INFO - Processing sector: AVIATION
+2025-06-13 16:25:54,815 - INFO - Processed 117 resumes from AVIATION
+2025-06-13 16:25:54,816 - INFO - Processing sector: BANKING
+2025-06-13 16:25:55,882 - INFO - Processed 115 resumes from BANKING
+2025-06-13 16:25:55,883 - INFO - Processing sector: BPO
+2025-06-13 16:25:56,153 - INFO - Processed 22 resumes from BPO
+2025-06-13 16:25:56,154 - INFO - Processing sector: BUSINESS-DEVELOPMENT
+2025-06-13 16:25:56,317 - WARNING - Insufficient text extracted from 12632728.pdf
+2025-06-13 16:25:57,269 - INFO - Processed 119 resumes from BUSINESS-DEVELOPMENT
+2025-06-13 16:25:57,270 - INFO - Processing sector: CHEF
+2025-06-13 16:25:58,588 - INFO - Processed 118 resumes from CHEF
+2025-06-13 16:25:58,588 - INFO - Processing sector: CONSTRUCTION
+2025-06-13 16:25:59,745 - INFO - Processed 112 resumes from CONSTRUCTION
+2025-06-13 16:25:59,745 - INFO - Processing sector: CONSULTANT
+2025-06-13 16:26:00,985 - INFO - Processed 115 resumes from CONSULTANT
+2025-06-13 16:26:00,985 - INFO - Processing sector: DESIGNER
+2025-06-13 16:26:02,016 - INFO - Processed 107 resumes from DESIGNER
+2025-06-13 16:26:02,016 - INFO - Processing sector: DIGITAL-MEDIA
+2025-06-13 16:26:02,985 - INFO - Processed 96 resumes from DIGITAL-MEDIA
+2025-06-13 16:26:02,985 - INFO - Processing sector: ENGINEERING
+2025-06-13 16:26:04,095 - INFO - Processed 118 resumes from ENGINEERING
+2025-06-13 16:26:04,095 - INFO - Processing sector: FINANCE
+2025-06-13 16:26:05,216 - INFO - Processed 118 resumes from FINANCE
+2025-06-13 16:26:05,216 - INFO - Processing sector: FITNESS
+2025-06-13 16:26:06,255 - INFO - Processed 117 resumes from FITNESS
+2025-06-13 16:26:06,255 - INFO - Processing sector: HEALTHCARE
+2025-06-13 16:26:07,575 - INFO - Processed 115 resumes from HEALTHCARE
+2025-06-13 16:26:07,575 - INFO - Processing sector: HR
+2025-06-13 16:26:08,733 - INFO - Processed 110 resumes from HR
+2025-06-13 16:26:08,733 - INFO - Processing sector: INFORMATION-TECHNOLOGY
+2025-06-13 16:26:10,098 - INFO - Processed 120 resumes from INFORMATION-TECHNOLOGY
+2025-06-13 16:26:10,098 - INFO - Processing sector: PUBLIC-RELATIONS
+2025-06-13 16:26:11,473 - INFO - Processed 111 resumes from PUBLIC-RELATIONS
+2025-06-13 16:26:11,473 - INFO - Processing sector: SALES
+2025-06-13 16:26:12,589 - INFO - Processed 116 resumes from SALES
+2025-06-13 16:26:12,589 - INFO - Processing sector: TEACHER
+2025-06-13 16:26:13,536 - INFO - Processed 102 resumes from TEACHER
+2025-06-13 16:26:13,536 - INFO - Total resumes processed: 2484
+2025-06-13 16:26:13,583 - INFO - Starting ranking process for 2484 resumes
+2025-06-13 16:26:45,353 - INFO - Successfully ranked 2484 resumes
+2025-06-13 16:26:45,887 - INFO - Results exported to ranking_results.json
+2025-06-13 16:26:50,383 - INFO - Detailed results exported to detailed_resume_ranking.csv
+2025-06-13 16:26:50,477 - INFO - Starting ranking process for 1 resumes
+2025-06-13 16:26:50,555 - INFO - Successfully ranked 1 resumes
