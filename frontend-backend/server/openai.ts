@@ -2,12 +2,12 @@ import OpenAI from "openai";
 import type { CandidateScore } from "@shared/schema";
 
 // the newest OpenAI model is "gpt-4o" which was released May 13, 2024. do not change this unless explicitly requested by the user
-const openai = new OpenAI({ 
-  apiKey: process.env.OPENAI_API_KEY || process.env.OPENAI_API_KEY_ENV_VAR || "default_key"
+const openai = new OpenAI({
+  apiKey: process.env.OPENAI_API_KEY || "",
 });
 
 export async function analyzeResumes(
-  jobDescription: string, 
+  jobDescription: string,
   resumes: Array<{ id: string; filename: string; content: string }>
 ): Promise<CandidateScore[]> {
   const prompt = `
@@ -17,11 +17,15 @@ Job Description:
 ${jobDescription}
 
 Resumes to analyze:
-${resumes.map((resume, index) => `
+${resumes
+  .map(
+    (resume, index) => `
 Resume ${index + 1} (${resume.filename}):
 ${resume.content}
 ---
-`).join('\n')}
+`
+  )
+  .join("\n")}
 
 For each resume, provide a detailed analysis in JSON format with the following structure:
 {
@@ -58,32 +62,37 @@ Rank candidates by overall score (highest first).
       messages: [
         {
           role: "system",
-          content: "You are an expert HR analyst. Analyze resumes against job descriptions and provide detailed scoring in JSON format."
+          content:
+            "You are an expert HR analyst. Analyze resumes against job descriptions and provide detailed scoring in JSON format.",
         },
         {
           role: "user",
-          content: prompt
-        }
+          content: prompt,
+        },
       ],
       response_format: { type: "json_object" },
       temperature: 0.3,
     });
 
     const result = JSON.parse(response.choices[0].message.content || "{}");
-    
+
     // Add the resume content to each candidate for reference
     const candidatesWithContent = result.candidates.map((candidate: any) => {
-      const resume = resumes.find(r => r.id === candidate.id || r.filename === candidate.filename);
+      const resume = resumes.find(
+        (r) => r.id === candidate.id || r.filename === candidate.filename
+      );
       return {
         ...candidate,
         content: resume?.content || "",
-        id: resume?.id || candidate.id
+        id: resume?.id || candidate.id,
       };
     });
 
     return candidatesWithContent;
   } catch (error) {
     console.error("OpenAI analysis error:", error);
-    throw new Error("Failed to analyze resumes with AI: " + (error as Error).message);
+    throw new Error(
+      "Failed to analyze resumes with AI: " + (error as Error).message
+    );
   }
 }

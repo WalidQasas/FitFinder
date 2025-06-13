@@ -10,6 +10,8 @@ import { useToast } from "@/hooks/use-toast";
 import { Bell, WandSparkles } from "lucide-react";
 import type { Resume, AnalysisResult } from "@shared/schema";
 import logoPath from "../../../attached_assets/Logo.jpg"; // Adjust the path as necessary
+import { Link } from "wouter";
+import { Rocket, Shield, Zap, Users, ArrowRight } from "lucide-react";
 
 export default function Dashboard() {
   const [jobDescription, setJobDescription] = useState("");
@@ -68,14 +70,26 @@ export default function Dashboard() {
       <header className="bg-card border-b border-border sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <div className="flex items-center">
+            {/* <div className="flex items-center">
               <img
                 src={logoPath}
                 alt="FitFinder Logo"
                 className="h-10 w-auto mr-3"
               />
               <h1 className="text-xl font-bold text-foreground">FitFinder</h1>
+            </div> */}
+            <div className="flex items-center justify-between">
+              <Link
+                to="/"
+                className="flex items-center space-x-2 hover:opacity-80 transition"
+              >
+                <div className="bg-primary rounded-lg p-2">
+                  <Rocket className="h-6 w-6 text-primary-foreground" />
+                </div>
+                <h1 className="text-xl font-bold">FitFinder</h1>
+              </Link>
             </div>
+
             <div className="flex items-center space-x-4">
               <Button variant="ghost" size="sm">
                 <Bell className="h-5 w-5 text-muted-foreground" />
